@@ -1,0 +1,10 @@
+{
+    "nrf-connect.applications": [
+        "${workspaceFolder}"
+    ],
+    "files.associations": {
+        "log.h": "c",
+        "wifi_mgmt.h": "c",
+        "wifi.h": "c"
+    }
+}

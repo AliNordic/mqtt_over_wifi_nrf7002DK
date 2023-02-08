@@ -27,6 +27,7 @@ nanopb_generate_cpp(proto_sources proto_headers RELPATH .
 zephyr_library_include_directories(${CMAKE_CURRENT_BINARY_DIR})
 
 target_sources(app PRIVATE src/main.c
+                           src/mqtt_connection.c
                            common/wifi_prov_handler.c
                            common/wifi_prov_ble.c
                            common/wifi_config.c

@@ -1,7 +1,7 @@
 sample:
-  description: Wi-Fi provisioning sample
+  description: MQTT over Wi-Fi sample
     application
-  name: Wi-Fi provisioning
+  name: MQTT over Wi-Fi
 tests:
   sample.nrf7002.provisioning:
     build_only: true

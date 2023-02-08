@@ -18,6 +18,7 @@
 #include "wifi_provisioning.h"
 #include "wifi_prov_internal.h"
 
+extern struct k_sem wifi_connected_sem;
 LOG_MODULE_REGISTER(wifi_prov, CONFIG_WIFI_PROVISIONING_LOG_LEVEL);
 
 #define WIFI_PROV_MGMT_EVENTS (NET_EVENT_WIFI_SCAN_RESULT | \
@@ -531,6 +532,7 @@ static void wifi_mgmt_event_handler(struct net_mgmt_event_callback *cb,
 		break;
 	case NET_EVENT_WIFI_CONNECT_RESULT:
 		handle_wifi_connect_result(cb);
+		k_sem_give(&wifi_connected_sem);
 		break;
 	default:
 		break;
