@@ -3,8 +3,7 @@
 This is a sample nRF Connect SDK application for the nRF7002 DK that demonistrate the use of the provisioning service and running MQTT over Wi-Fi.
 
 The sample uses the prvisinoing service to allow you to securely connect the nRF7002 DK to your Wi-Fi network using the the [nRF Wi-Fi Provisioner](https://www.nordicsemi.com/Products/Development-tools/nRF-Wi-Fi-Provisioner) mobile app.
-Once connection to the internent is established, the nRF7002 DK will act as an MQTT client, connects to an MQTT broker, and establish bidirectional communication over Wi-Fi
-with another MQTT client connected to the same broker. Through this connection, you can control the LEDs and monitor the buttons on the nRF7002 DK. 
+Once connection to the internet is established, the nRF7002 DK will act as an MQTT client, connects to an MQTT broker, and establish bidirectional communication over Wi-Fi with another MQTT client connected to the same broker. Through this connection, you can control the LEDs and monitor the buttons on the nRF7002 DK. 
 
 How to use:
 
