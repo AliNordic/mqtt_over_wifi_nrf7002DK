@@ -9,7 +9,9 @@ with another MQTT client connected to the same broker. Through this connection, 
 How to use:
 
 1.  Flash the demo application to your board nRF7002 DK.
+    
     1.1 Option A: Build from source code
+    
     1.2 Option B: Flash the binary files in /hex
 
 2.  Provision the nRF7002 DK to your access point/route:
