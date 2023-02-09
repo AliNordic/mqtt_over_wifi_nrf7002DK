@@ -1,4 +1,4 @@
-# MQTT over Wi-Fi on the nRF7002DK
+# MQTT over Wi-Fi on the nRF7002 DK
 
 This is a sample nRF Connect SDK application for the nRF7002 DK that demonistrate the use of the provisioning service and running MQTT over Wi-Fi.
 
