@@ -8,6 +8,18 @@ menu "MQTT over Wi-Fi"
 module = WIFI_PROVISIONING
 module-str = wifi provisioning service
 source "${ZEPHYR_BASE}/subsys/logging/Kconfig.template.log_config"
+
+config WIFI_PROV_ADV_DATA_UPDATE
+	bool "Enable periodic update of advertisement data"
+	default y
+
+if WIFI_PROV_ADV_DATA_UPDATE
+
+	config WIFI_PROV_ADV_DATA_UPDATE_INTERVAL
+		int "Periodic update interval in second"
+		default 5
+endif # WIFI_PROV_ADV_DATA_UPDATE
+
 config MQTT_PUB_TOPIC
 	string "MQTT publish topic"
 	default "devacademy/publish/topic44"
