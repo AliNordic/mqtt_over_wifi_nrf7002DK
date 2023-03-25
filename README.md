@@ -23,4 +23,4 @@ How to use:
 
 4.  Control the LEDs and monitor the buttons of the nRF7002 DK from another MQTT client.
 
-More details can be found on this blog post: [DevZone Blog](https://devzone.nordicsemi.com/nordic/nordic-blog/b/blog/posts/streamline-your-iot-connectivity-implementing-mqtt-over-wi-fi-on-the-nrf7002-development-kit)
+More details can be found on this blog post: [DevZone Blog](https://devzone.nordicsemi.com/nordic/nordic-blog/b/blog/posts/implementing-mqtt-over-wi-fi-on-the-nrf7002-development-kit)
